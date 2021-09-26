@@ -1,10 +1,17 @@
-- Start Date: 2021-9-26 (fill me in with today's date, YYYY-MM-DD)
+- Start Date: 2021-9-26
 - RFC PR: (leave this empty)
 - Svelte Issue: (leave this empty)
 
-# Selecting Roots (RFC title goes here)
+# Selecting Roots
 
 ## Summary
+
+This RFC proposes a new feature that allows you to select what is the designated root of a svelte component.
+
+```
+<svelte:root>
+</svelte:root>
+```
 
 > One paragraph explanation of the feature.
 
@@ -29,6 +36,8 @@
 > the motivation could be used to develop alternative solutions. In other words,
 > enumerate the constraints you are trying to solve without coupling them too
 > closely to the solution you have in mind.
+
+The motivation of this arises from the current difficulties with stylizing, setting actions, transitions, animations onto child components.
 
 ## Detailed design
 
